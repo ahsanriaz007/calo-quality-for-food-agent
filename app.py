@@ -42,43 +42,22 @@ st.markdown(
 )
 
 # ---------------------------------------------------------
-# Sidebar - Groq Setup & Status (Hidden & Secure)
+# Sidebar - System Status (Hidden & Secure)
 # ---------------------------------------------------------
 st.sidebar.header("⚙️ System Status")
 
+# Automatically and securely fetch the API key from Streamlit Secrets
 try:
-    api_key = st.secrets["GROQ_API_KEY"]
+  api_key = st.secrets["GROQ_API_KEY"]
 except (KeyError, FileNotFoundError):
-    api_key = ""
+  api_key = ""
 
 if api_key:
-    client = Groq(api_key=api_key)
-    st.sidebar.success("🟢 AI Operational Engine Online")
+  client = Groq(api_key=api_key)
+  st.sidebar.success("🟢 AI Operational Engine Online")
 else:
-    client = None
-    st.sidebar.error("🔴 API Key Missing in Streamlit Secrets")
-
-
-def generate_action_plan(incident_text):
-  if not client:
-    return "API Key missing. Please configure your Groq API key in Streamlit Secrets."
-  prompt = f"""
-    You are an expert Kitchen Operations Manager for Calo, a premium meal prep service.
-    Review the following operational incident or customer complaint.
-    Write a strict, 2-sentence maximum action plan for floor staff to resolve this.
-    Be direct, professional, and focus on food safety or logistics.
-    
-    Incident Details: {incident_text}
-    """
-  try:
-    response = client.chat.completions.create(
-        messages=[{"role": "user", "content": prompt}],
-        model="llama-3.3-70b-versatile",
-        temperature=0.2,
-    )
-    return response.choices[0].message.content.strip()
-  except Exception as e:
-    return f"Error calling Groq API: {e}"
+  client = None
+  st.sidebar.error("🔴 API Key Missing in Streamlit Secrets")
 
 
 # ---------------------------------------------------------
