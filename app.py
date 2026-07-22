@@ -1,10 +1,3 @@
-Here is your complete, updated code for **`app.py`**.
-
-This version pulls your Groq API key securely from **Streamlit Secrets** behind the scenes (so the password input box is completely removed from the sidebar), displays a clean system status badge, and safely runs your entire dashboard.
-
-### `app.py`
-
-```python
 import os
 import time
 import joblib
@@ -23,7 +16,6 @@ st.set_page_config(
 st.markdown(
     """
 <style>
-    /* Force every container's top spacing to absolute zero */
     .block-container, [data-testid="stAppViewBlockContainer"] {
         padding-top: 0px !important; 
         margin-top: 0px !important;
@@ -50,7 +42,7 @@ st.markdown(
 )
 
 # ---------------------------------------------------------
-# Sidebar - Groq Setup & Status (Secure & Hidden)
+# Sidebar - Groq Setup & Status (Hidden & Secure)
 # ---------------------------------------------------------
 st.sidebar.header("⚙️ System Status")
 
@@ -175,7 +167,7 @@ with tab1:
     st.plotly_chart(fig, use_container_width=True)
     
   else:
-    st.warning("`labeled_reviews.csv` not found. Please ensure files are in place.")
+    st.warning("`labeled_reviews.csv` not found.")
 
 # ---------------------------------------------------------
 # TAB 2: Kitchen Anomalies
@@ -234,5 +226,3 @@ with tab3:
       with st.spinner("Generating emergency resolution protocol..."):
         action_plan = generate_action_plan(user_input)
         st.success(action_plan)
-
-```
