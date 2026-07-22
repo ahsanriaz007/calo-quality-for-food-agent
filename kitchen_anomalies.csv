@@ -1,0 +1,70 @@
+log_id,kitchen,issue_summary,severity
+LOG-1001,Dubai-Marina,High Fridge Temp (7.8°C > 6.0°C),MEDIUM
+LOG-1005,Dubai-Marina,High Fridge Temp (7.7°C > 6.0°C) | Undercooked Item (73.3°C < 74.0°C),HIGH
+LOG-1007,Manama-Main,High Fridge Temp (6.8°C > 6.0°C),MEDIUM
+LOG-1008,Jeddah-North,Undercooked Item (70.7°C < 74.0°C),MEDIUM
+LOG-1009,Manama-Main,Undercooked Item (69.1°C < 74.0°C),MEDIUM
+LOG-1012,Riyadh-Central,Undercooked Item (67.2°C < 74.0°C),MEDIUM
+LOG-1018,Dubai-Marina,Freezing Risk (-1.1°C < 0.0°C),MEDIUM
+LOG-1019,Jeddah-North,Undercooked Item (62.9°C < 74.0°C),MEDIUM
+LOG-1021,Kuwait-City,High Fridge Temp (6.4°C > 6.0°C),MEDIUM
+LOG-1025,Riyadh-Central,High Fridge Temp (6.4°C > 6.0°C),MEDIUM
+LOG-1026,Dubai-Marina,High Fridge Temp (6.1°C > 6.0°C) | Undercooked Item (69.4°C < 74.0°C),HIGH
+LOG-1027,Dubai-Marina,Undercooked Item (68.9°C < 74.0°C),MEDIUM
+LOG-1028,Riyadh-Central,Undercooked Item (71.9°C < 74.0°C),MEDIUM
+LOG-1029,Jeddah-North,Undercooked Item (72.7°C < 74.0°C),MEDIUM
+LOG-1030,Kuwait-City,Freezing Risk (-0.8°C < 0.0°C),MEDIUM
+LOG-1031,Jeddah-North,High Fridge Temp (10.2°C > 6.0°C),MEDIUM
+LOG-1032,Dubai-Marina,Freezing Risk (-2.2°C < 0.0°C),MEDIUM
+LOG-1033,Kuwait-City,High Fridge Temp (7.1°C > 6.0°C) | Undercooked Item (69.4°C < 74.0°C),HIGH
+LOG-1034,Riyadh-Central,High Fridge Temp (7.5°C > 6.0°C),MEDIUM
+LOG-1037,Riyadh-Central,Undercooked Item (72.4°C < 74.0°C),MEDIUM
+LOG-1041,Dubai-Marina,Undercooked Item (73.0°C < 74.0°C),MEDIUM
+LOG-1045,Riyadh-Central,Freezing Risk (-0.8°C < 0.0°C) | Undercooked Item (70.0°C < 74.0°C),HIGH
+LOG-1048,Kuwait-City,High Fridge Temp (9.7°C > 6.0°C),MEDIUM
+LOG-1051,Manama-Main,High Fridge Temp (10.8°C > 6.0°C),MEDIUM
+LOG-1054,Jeddah-North,Undercooked Item (68.4°C < 74.0°C),MEDIUM
+LOG-1055,Jeddah-North,High Fridge Temp (6.1°C > 6.0°C),MEDIUM
+LOG-1056,Jeddah-North,Undercooked Item (70.6°C < 74.0°C),MEDIUM
+LOG-1058,Jeddah-North,Undercooked Item (72.4°C < 74.0°C),MEDIUM
+LOG-1061,Dubai-Marina,Undercooked Item (68.2°C < 74.0°C),MEDIUM
+LOG-1062,Riyadh-Central,High Fridge Temp (9.8°C > 6.0°C) | Undercooked Item (66.7°C < 74.0°C),HIGH
+LOG-1063,Riyadh-Central,Undercooked Item (71.5°C < 74.0°C),MEDIUM
+LOG-1066,Dubai-Marina,High Fridge Temp (7.4°C > 6.0°C),MEDIUM
+LOG-1067,Manama-Main,Undercooked Item (72.7°C < 74.0°C),MEDIUM
+LOG-1071,Manama-Main,High Fridge Temp (9.6°C > 6.0°C) | Undercooked Item (69.4°C < 74.0°C),HIGH
+LOG-1083,Kuwait-City,High Fridge Temp (7.2°C > 6.0°C) | Undercooked Item (72.9°C < 74.0°C),HIGH
+LOG-1085,Riyadh-Central,Undercooked Item (71.9°C < 74.0°C),MEDIUM
+LOG-1086,Riyadh-Central,High Fridge Temp (8.7°C > 6.0°C),MEDIUM
+LOG-1087,Kuwait-City,Undercooked Item (72.7°C < 74.0°C),MEDIUM
+LOG-1088,Riyadh-Central,Undercooked Item (70.4°C < 74.0°C),MEDIUM
+LOG-1089,Riyadh-Central,Prep Delay (37 mins > 30 mins),MEDIUM
+LOG-1092,Kuwait-City,Undercooked Item (72.0°C < 74.0°C),MEDIUM
+LOG-1095,Jeddah-North,Undercooked Item (73.8°C < 74.0°C),MEDIUM
+LOG-1099,Kuwait-City,High Fridge Temp (7.9°C > 6.0°C) | Undercooked Item (72.4°C < 74.0°C),HIGH
+LOG-1101,Riyadh-Central,Undercooked Item (70.5°C < 74.0°C),MEDIUM
+LOG-1102,Jeddah-North,Undercooked Item (71.8°C < 74.0°C),MEDIUM
+LOG-1104,Riyadh-Central,High Fridge Temp (6.1°C > 6.0°C) | Undercooked Item (70.7°C < 74.0°C),HIGH
+LOG-1106,Jeddah-North,Undercooked Item (73.0°C < 74.0°C),MEDIUM
+LOG-1108,Dubai-Marina,Undercooked Item (71.6°C < 74.0°C),MEDIUM
+LOG-1110,Dubai-Marina,High Fridge Temp (8.3°C > 6.0°C) | Undercooked Item (68.5°C < 74.0°C),HIGH
+LOG-1113,Dubai-Marina,Undercooked Item (67.4°C < 74.0°C),MEDIUM
+LOG-1117,Riyadh-Central,Undercooked Item (69.2°C < 74.0°C),MEDIUM
+LOG-1118,Riyadh-Central,Freezing Risk (-4.7°C < 0.0°C),MEDIUM
+LOG-1119,Dubai-Marina,High Fridge Temp (6.2°C > 6.0°C),MEDIUM
+LOG-1121,Jeddah-North,High Fridge Temp (6.2°C > 6.0°C),MEDIUM
+LOG-1122,Jeddah-North,High Fridge Temp (6.6°C > 6.0°C) | Undercooked Item (67.2°C < 74.0°C),HIGH
+LOG-1123,Manama-Main,Freezing Risk (-1.1°C < 0.0°C),MEDIUM
+LOG-1124,Jeddah-North,Undercooked Item (66.6°C < 74.0°C),MEDIUM
+LOG-1129,Kuwait-City,Undercooked Item (69.2°C < 74.0°C),MEDIUM
+LOG-1130,Jeddah-North,Undercooked Item (72.0°C < 74.0°C),MEDIUM
+LOG-1131,Jeddah-North,Undercooked Item (69.9°C < 74.0°C),MEDIUM
+LOG-1137,Riyadh-Central,Freezing Risk (-2.1°C < 0.0°C) | Undercooked Item (72.1°C < 74.0°C),HIGH
+LOG-1139,Manama-Main,Freezing Risk (-1.3°C < 0.0°C),MEDIUM
+LOG-1140,Dubai-Marina,High Fridge Temp (9.9°C > 6.0°C),MEDIUM
+LOG-1141,Manama-Main,High Fridge Temp (8.0°C > 6.0°C) | Undercooked Item (68.4°C < 74.0°C),HIGH
+LOG-1142,Kuwait-City,High Fridge Temp (6.3°C > 6.0°C),MEDIUM
+LOG-1143,Manama-Main,Undercooked Item (73.7°C < 74.0°C),MEDIUM
+LOG-1146,Dubai-Marina,High Fridge Temp (6.3°C > 6.0°C) | Undercooked Item (72.2°C < 74.0°C),HIGH
+LOG-1148,Dubai-Marina,Undercooked Item (71.5°C < 74.0°C),MEDIUM
+LOG-1149,Dubai-Marina,Freezing Risk (-0.2°C < 0.0°C),MEDIUM

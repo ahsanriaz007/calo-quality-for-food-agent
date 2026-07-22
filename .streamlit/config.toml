@@ -1,0 +1,15 @@
+[theme]
+# Calo's vibrant brand green
+primaryColor = "#189464"
+
+# Clean, light app background
+backgroundColor = "#F9FAFB"
+
+# Crisp white for sidebar and data cards
+secondaryBackgroundColor = "#FFFFFF"
+
+# Dark gray text for high contrast and readability 
+textColor = "#1F2937"
+
+# Modern, clean typography
+font = "sans serif"
